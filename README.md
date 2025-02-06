@@ -61,10 +61,8 @@ function agregarAmigo() {
 
     amigos.push(nombreAmigo);
     // Actualiza la lista en el HTML...
-   ```
-    
-}
- ```
+    }
+
 
 ### Se necesitan 2 Nombres para sortear
 ```javascript
