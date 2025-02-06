@@ -61,24 +61,34 @@ function agregarAmigo() {
 
     amigos.push(nombreAmigo);
     // Actualiza la lista en el HTML...
-    ```
+   ```
     
 }
+ ```
 
-
-### Sortear un amigo
+### Se necesitan 2 Nombres para sortear
 ```javascript
 function sortearAmigo() {
     if (amigos.length < 2) {
         alert("Necesitas al menos 2 amigos para hacer el sorteo.");
         return;
     }
+```
+![Captura de pantalla (53)](https://github.com/user-attachments/assets/f9652a7d-eb35-4e87-9330-2e027b70587c)
 
+### Sortear un amigo
+```
     const indiceAleatorio = Math.floor(Math.random() * amigos.length);
     const amigoSorteado = amigos[indiceAleatorio];
 
-    // Muestra el resultado...
 }
+
+
+    // Muestra el resultado...
+
+
+
+
 ```
 ![Captura de pantalla (52)](https://github.com/user-attachments/assets/d862c19d-bb79-49a0-8cac-a7577489cd79)
 
