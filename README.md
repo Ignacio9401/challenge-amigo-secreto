@@ -25,9 +25,9 @@ El proyecto consta de los siguientes elementos:
 4. El resultado aparecerá debajo del botón de sorteo.  
 
 ### Ejemplo de uso
-1. Agrega los siguientes nombres: `Juan`, `María`, `Pedro`.  
+1. Agrega los siguientes nombres: `Angel`, `Samael`, `Dillan`.  
 2. Presiona el botón **Sortear**.  
-3. Verás un resultado como: `"El amigo sorteado es: Pedro"`.
+3. Verás un resultado como: `"El amigo sorteado es: Samael"`.
 
 ## Código Principal 💻
 El archivo `script.js` contiene la lógica principal del proyecto. Aquí algunos fragmentos clave:
@@ -45,18 +45,26 @@ function agregarAmigo() {
         input.focus();
         return;
     }
+```
+![Captura de pantalla (50)](https://github.com/user-attachments/assets/2dc0671d-278c-40b7-9c7c-b0cc67aedb9c)
+![Captura de pantalla (51)](https://github.com/user-attachments/assets/60c9197e-b6fa-435a-a2b3-cd79de19b413)
 
+```
     if (amigos.includes(nombreAmigo)) {
         alert("El nombre ya ha sido agregado. Ingrese uno diferente.");
         input.value = "";
         input.focus();
         return;
     }
+```
+![Captura de pantalla (49)](https://github.com/user-attachments/assets/83774d92-29bb-48a4-b2bc-833543057923)
 
     amigos.push(nombreAmigo);
     // Actualiza la lista en el HTML...
+    ```
+    
 }
-```
+
 
 ### Sortear un amigo
 ```javascript
@@ -72,16 +80,14 @@ function sortearAmigo() {
     // Muestra el resultado...
 }
 ```
+![Captura de pantalla (52)](https://github.com/user-attachments/assets/d862c19d-bb79-49a0-8cac-a7577489cd79)
+
+
 
 ## Requisitos ⚙️
 - Navegador web con soporte para JavaScript.
 - Archivo `index.html` para la estructura de la página.
 - Archivo `script.js` para la lógica.
 
-![Captura de pantalla (48)](https://github.com/user-attachments/assets/55200984-1e8c-4317-a73d-2b1238c1ab46)
-![Captura de pantalla (47)](https://github.com/user-attachments/assets/3a825477-1798-400d-9c3b-13f3136b229e)
-![Captura de pantalla (46)](https://github.com/user-attachments/assets/f1b6a9c8-8ae9-45e6-831b-a571ef2afa53)
-![Captura de pantalla (45)](https://github.com/user-attachments/assets/8d2699a7-27cd-4f5c-ac3d-05335b349b17)
-![Captura de pantalla (44)](https://github.com/user-attachments/assets/516b4f34-5ddf-416d-8344-67ec4eff577c)
 
 
